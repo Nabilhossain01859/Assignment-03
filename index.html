@@ -23,7 +23,7 @@
       }
     </style>
   </head>
-  <body class="manrope-font bg-slate-100">
+  <body class="manrope-font bg-slate-50">
     <!-- header section -->
     <header class="container mx-auto">
       <!-- navbar -->
@@ -127,7 +127,7 @@
             </div>
           </div>
           <!-- huburger icon -->
-          <span class="block md:hidden"
+          <span class="md:block lg:hidden"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -146,6 +146,51 @@
         </div>
       </nav>
     </header>
-    
+    <!-- main section -->
+    <main>
+      <!-- banner start-->
+      <div class="container mx-auto flex flex-col items-center gap-5">
+        <!-- banner image -->
+        <div><img src="./assets/section-imgs-png/banner.png" alt="" /></div>
+        <!-- banner text -->
+        <div class="leading-10 items-center text-center flex flex-col gap-4">
+          <h2 class="font-extrabold lg:text-5xl text-3xl">
+            A barn house of this design has a striking appearance
+          </h2>
+          <p class="text-slate-500 text-xs lg:text-base">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+          <!-- btn like icon -->
+
+          <button
+            class="hover:bg-green-400 flex justify-center items-center gap-2 bg-green-200 p-4 rounded-3xl w-full md:w-max"
+          >
+            <h2 class="font-bold text-base">View Details</h2>
+            <div
+              class="bg-green-400 text-black w-min rounded-full p-2 -rotate-90"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <!-- banner end -->
+       
+    </main>
   </body>
 </html>
