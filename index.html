@@ -21,6 +21,9 @@
       .manrope-font {
         font-family: "Manrope", sans-serif;
       }
+      .bg-paper {
+        background-image: url("./assets/bg-png/bg.jpg");
+      }
     </style>
   </head>
   <body class="manrope-font bg-slate-50">
@@ -588,7 +591,9 @@
       </div>
       <!-- our last Portfolio section end-->
       <!-- Rinterio news start -->
-      <div class="text-center my-24 container mx-auto flex flex-col md:gap-3 gap-2 lg:gap-0">
+      <div
+        class="text-center my-24 container mx-auto flex flex-col md:gap-3 gap-2 lg:gap-4"
+      >
         <!-- button  -->
         <button
           class="flex items-center mx-auto w-max gap-2 hover:bg-slate-200 bg-[#ABEF5F] px-4 py-2 rounded-3xl"
@@ -626,7 +631,7 @@
           class="p-5 w-5/6 mx-auto shadow-2xl items-center text-center rounded-3xl gap-4 flex lg:flex-col flex-col md:flex-row"
         >
           <!-- image  -->
-          <div class=" shadow-xl rounded-2xl">
+          <div class="shadow-xl rounded-2xl">
             <img class="" src="./assets/cards-main-png/article1.png" alt="" />
           </div>
           <!-- text  -->
@@ -685,7 +690,7 @@
           class="p-5 w-5/6 mx-auto shadow-2xl items-center text-center rounded-3xl gap-4 flex lg:flex-col flex-col md:flex-row"
         >
           <!-- image  -->
-          <div  class=" shadow-xl rounded-2xl">
+          <div class="shadow-xl rounded-2xl">
             <img src="./assets/cards-main-png/article2.png" alt="" />
           </div>
           <!-- text  -->
@@ -744,7 +749,7 @@
           class="p-5 w-5/6 mx-auto shadow-2xl items-center text-center rounded-3xl gap-4 flex lg:flex-col flex-col md:flex-row"
         >
           <!-- image  -->
-          <div  class=" shadow-xl rounded-2xl">
+          <div class="shadow-xl rounded-2xl">
             <img src="./assets/cards-main-png/article3.png" alt="" />
           </div>
           <!-- text  -->
@@ -800,6 +805,74 @@
         </div>
       </div>
       <!-- Rinterio news end -->
+      <!-- Next project section start -->
+      <div
+        class="container mx-auto lg:p-12 md:p-5 p-2 my-20 bg-paper bg-cover bg-center"
+      >
+        <!-- text -->
+        <div class="text-center flex flex-col gap-5">
+          <!-- button  -->
+          <button
+            class="flex items-center mx-auto w-max gap-2 hover:bg-slate-200 bg-[#ABEF5F] px-4 py-2 rounded-3xl"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2.5"
+              stroke="currentColor"
+              class="size-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+            <h2 class="font-semibold">Let's connect</h2>
+          </button>
+          <!-- h2 and p-->
+          <h2 class="md:text-4xl text-2xl font-bold">
+            Let's Discuss Next Project
+          </h2>
+          <p class="md:text-base text-xs">
+            "Collaborate with us to brainstorm and shape the vision for our next
+            exciting project!"
+          </p>
+        </div>
+
+        <!-- forms -->
+        <div class="mx-auto grid lg:grid-cols-2 grid-cols-1 gap-3 w-11/12 p-2">
+          <input
+            type="text"
+            placeholder="First name"
+            class="input input-bordered rounded-3xl w-full"
+          />
+          <input
+            type="text"
+            placeholder="Last name"
+            class="input input-bordered rounded-3xl w-full"
+          />
+          <input
+            type="text"
+            placeholder="Phone number"
+            class="input input-bordered rounded-3xl w-full"
+          />
+          <input
+            type="text"
+            placeholder="Email address"
+            class="input input-bordered rounded-3xl w-full"
+          />
+        </div>
+        <div class="my-6 mx-auto w-11/12 p-2">
+          <textarea
+            placeholder="Write your message here"
+            class="textarea textarea-bordered textarea-lg w-full"
+          ></textarea>
+        </div>
+      </div>
+
+      <!-- Next project section end -->
        
     </main>
   </body>
